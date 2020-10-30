@@ -1,1 +1,3 @@
-(library (public_name a) (libraries b) (modules))
+(library
+  (public_name a)
+  (libraries b))
