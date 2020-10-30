@@ -11,7 +11,7 @@ This repository contains a reproduction of such unexpected behaviour. It contain
 `a` and `b` and a third `c` packages in the `vendors/` directory which is marked as a
 `vendored_dir`.
 
-`a` depends on `b` and `c` (implicitly through `b`) and `b` depends on `c`. Those dependencies are
+`a` depends on `b` and `c` and `b` depends on `c`. Those dependencies are
 expressed both in dune and opam files.
 
 ```
