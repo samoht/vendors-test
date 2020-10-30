@@ -1,1 +1,1 @@
-let z = B.y + 1
+let z = B.y + 1 + C.x
